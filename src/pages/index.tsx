@@ -1,6 +1,6 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import { Title } from '../components/atoms';
+import { Title } from '../components';
 
 const Home: NextPage = () => {
   return (
