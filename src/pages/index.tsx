@@ -1,6 +1,6 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import { Title } from '../components';
+import { SectionButton, Title } from '../components';
 
 const Home: NextPage = () => {
   return (
@@ -12,9 +12,7 @@ const Home: NextPage = () => {
       <main className="p-4 md:p-11">
         <Title type="title-content" text="NextJS-Antd-Tailwindcss" />
 
-        <section>
-          <Title type="title-section" text="Button" />
-        </section>
+        <SectionButton />
 
         <section>
           <Title type="title-section" text="Input" />

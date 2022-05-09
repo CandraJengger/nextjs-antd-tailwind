@@ -1,0 +1,59 @@
+.ant-btn {
+  @apply font-semibold rounded-md; 
+
+  &-primary {
+    @apply bg-primary hover:bg-primary focus:bg-primary opacity-100 hover:opacity-80 border border-primary hover:border-primary focus:border-primary;
+
+    &[disabled] {
+      @apply bg-grey1 text-white border border-grey1;
+    }
+  }
+
+  &-default {
+    @apply bg-white hover:bg-white focus:bg-white opacity-100 hover:opacity-80 border border-primary hover:border-primary focus:border-primary text-primary hover:text-primary focus:text-primary;
+
+    &[disabled] {
+      @apply bg-white text-grey1 border border-grey1;
+    }
+  }
+
+  &-secondary {
+    @apply bg-secondary hover:bg-secondary focus:bg-secondary opacity-100 hover:opacity-80 border border-secondary hover:border-secondary focus:border-secondary text-dark focus:text-dark hover:text-dark;
+
+    &[disabled] {
+      @apply bg-white text-grey1 border border-grey1;
+    }
+  }
+
+  &-dangerous {
+    @apply bg-white hover:bg-white focus:bg-white opacity-100 hover:opacity-80 border border-danger hover:border-danger focus:border-danger text-danger hover:text-danger focus:text-danger;
+
+    &[disabled] {
+      @apply bg-white text-grey1 border border-grey1;
+    }
+  }
+
+  &-success {
+    @apply bg-success hover:bg-success focus:bg-success opacity-100 hover:opacity-80 border border-success hover:border-success focus:border-success text-white focus:text-white hover:text-white;
+
+    &[disabled] {
+      @apply bg-white text-grey1 border border-grey1;
+    }
+  }
+
+  &-warning {
+    @apply bg-warning hover:bg-warning focus:bg-warning opacity-100 hover:opacity-80 border border-warning hover:border-warning focus:border-warning text-white focus:text-white hover:text-white;
+
+    &[disabled] {
+      @apply bg-white text-grey1 border border-grey1;
+    }
+  }
+
+  &.ant-btn-background-ghost {
+    @apply bg-grey1 border-grey1 focus:border-grey1 hover:border-grey1 hover:bg-grey1 focus:bg-grey1 text-white hover:text-white opacity-100 hover:opacity-80 focus:text-white;
+
+    &[disabled] {
+      @apply bg-white text-grey1 border border-grey1;
+    }
+  }
+}
