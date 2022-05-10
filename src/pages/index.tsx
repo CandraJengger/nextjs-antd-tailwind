@@ -1,6 +1,6 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import { SectionButton, Title } from '../components';
+import { SectionButton, Title, SectionInput } from '../components';
 
 const Home: NextPage = () => {
   return (
@@ -14,9 +14,7 @@ const Home: NextPage = () => {
 
         <SectionButton />
 
-        <section>
-          <Title type="title-section" text="Input" />
-        </section>
+        <SectionInput />
 
         <section>
           <Title type="title-section" text="Switch" />

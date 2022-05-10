@@ -8,7 +8,7 @@ export type Props = {
 
 const SectionWrapper: React.FC<Props> = ({ title, children }) => {
   const generateIdSection = () =>
-    `section-${title.toLowerCase().replaceAll(' ', '-')}`;
+    `section-${title.replace(/\W/g, '-').toLowerCase()}`;
   return (
     <section className="mb-6" id={generateIdSection()}>
       <Title type="title-section" text={title} />

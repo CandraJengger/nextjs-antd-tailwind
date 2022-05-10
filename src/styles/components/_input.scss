@@ -1,0 +1,29 @@
+.ant-input-affix-wrapper {
+  @apply border border-grey3 p-3;
+
+  &:not(.ant-input-affix-wrapper-disabled):hover {
+    @apply border-primary;
+  }
+
+  .ant-input {
+    @apply text-base;
+  }
+
+}
+
+.ant-input-affix-wrapper-focused {
+  @apply border-primary;
+}
+
+.ant-input {
+  @apply border border-grey3 p-3 text-base;
+
+  &:hover {
+    @apply border-primary;
+  }
+
+  &:focus {
+    @apply border-primary;
+  }
+}
+

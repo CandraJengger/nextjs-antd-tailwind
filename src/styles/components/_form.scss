@@ -1,0 +1,7 @@
+.ant-form-item-label {
+  @apply font-semibold text-black pb-1;
+
+  label {
+    @apply text-base;
+  }
+}
