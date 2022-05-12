@@ -1,5 +1,5 @@
 # nextjs-antd-tailwind
-this project is built by combining [NextJS](https://nextjs.org/), [Ant Design](https://ant.design/) and [TailwindCSS](https://tailwindcss.com/) which aims to make it easy to build the project you need
+this project is built by combining [NextJS](https://nextjs.org/), [Ant Design](https://ant.design/) and [TailwindCSS](https://tailwindcss.com/) with the aim of making it easier to build a project whose style is easy to customize
 
 # Build with
 * [TypeScript](https://www.typescriptlang.org/)
