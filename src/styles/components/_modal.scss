@@ -1,0 +1,9 @@
+.ant-modal {
+  &-content {
+    @apply rounded-xl;
+  }
+
+  &-header {
+    @apply rounded-t-xl border-b-0;
+  }
+}

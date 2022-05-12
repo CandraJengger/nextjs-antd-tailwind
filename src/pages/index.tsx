@@ -4,7 +4,8 @@ import {
   SectionButton,
   Title,
   SectionInput,
-  SectionSwitch
+  SectionSwitch,
+  SectionModal
 } from '../components';
 
 const Home: NextPage = () => {
@@ -23,9 +24,7 @@ const Home: NextPage = () => {
 
         <SectionSwitch />
 
-        <section>
-          <Title type="title-section" text="Modal" />
-        </section>
+        <SectionModal />
       </main>
     </>
   );
