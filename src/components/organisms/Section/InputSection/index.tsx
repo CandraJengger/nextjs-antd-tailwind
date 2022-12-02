@@ -1,8 +1,8 @@
 import { Col, Form, Input, Row } from 'antd';
 import React from 'react';
-import { SectionWrapper } from '../../moleculs';
+import { SectionWrapper } from '../../../moleculs';
 
-const SectionInput = () => {
+const InputSection = () => {
   return (
     <SectionWrapper title="Input">
       <Row gutter={[24, 24]}>
@@ -55,4 +55,4 @@ const SectionInput = () => {
   );
 };
 
-export default SectionInput;
+export default InputSection;

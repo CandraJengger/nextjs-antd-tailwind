@@ -1,0 +1,7 @@
+```
+layouts/
+  |- AdminLayout
+  |- LandingLayout
+  |- AuthLayout
+  ...
+```

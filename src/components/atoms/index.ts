@@ -1,6 +1,6 @@
-import Title from './Title';
-import Button from './Button';
-import Modal from './Modal'
 import Gap from './Gap';
 
-export { Title, Button, Modal, Gap };
+export { Gap };
+export * from './Button'
+export * from './Modal'
+export * from './Typography'

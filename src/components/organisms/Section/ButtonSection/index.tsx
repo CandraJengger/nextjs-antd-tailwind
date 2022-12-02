@@ -1,8 +1,8 @@
 import React from 'react';
-import { Button } from '../../atoms';
-import { SectionWrapper } from '../../moleculs';
+import { Button } from '../../../atoms';
+import { SectionWrapper } from '../../../moleculs';
 
-const SectionButton = () => {
+const ButtonSection = () => {
   return (
     <SectionWrapper title="Button">
       <div>
@@ -18,4 +18,4 @@ const SectionButton = () => {
   );
 };
 
-export default SectionButton;
+export default ButtonSection;

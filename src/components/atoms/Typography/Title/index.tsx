@@ -1,6 +1,6 @@
 import React from 'react';
 import { Typography } from 'antd';
-import { Props } from './title.props';
+import Props from './Title.props';
 
 const { Title: ATitle } = Typography;
 

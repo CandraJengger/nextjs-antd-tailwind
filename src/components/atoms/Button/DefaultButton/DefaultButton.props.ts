@@ -1,7 +1,7 @@
 import { SizeType } from 'antd/lib/config-provider/SizeContext';
 import React from 'react';
 
-export type Props = {
+type DefaultButtonProps = {
   type?:
     | 'default'
     | 'primary'
@@ -18,3 +18,5 @@ export type Props = {
   block?: boolean;
   size?: SizeType;
 };
+
+export default DefaultButtonProps

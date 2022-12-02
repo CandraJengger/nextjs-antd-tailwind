@@ -1,10 +1,7 @@
 import React from 'react';
-import { Title } from '../../atoms';
+import { Title } from '../../../atoms';
 
-export type Props = {
-  title: string;
-  children?: React.ReactNode | undefined;
-};
+import Props from './SectionWrapper.props'
 
 const SectionWrapper: React.FC<Props> = ({ title, children }) => {
   const generateIdSection = () =>

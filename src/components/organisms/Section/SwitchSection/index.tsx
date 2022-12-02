@@ -1,8 +1,8 @@
 import { Form, Switch } from 'antd';
 import React from 'react';
-import { SectionWrapper } from '../../moleculs';
+import { SectionWrapper } from '../../../moleculs';
 
-const SectionSwitch = () => {
+const SwitchSection = () => {
   return (
     <SectionWrapper title="Switch">
       {/* Default */}
@@ -18,4 +18,4 @@ const SectionSwitch = () => {
   );
 };
 
-export default SectionSwitch;
+export default SwitchSection;

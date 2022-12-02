@@ -1,0 +1,5 @@
+```
+routes/
+  |- AdminRoutes
+  |- LandingRoutes
+```

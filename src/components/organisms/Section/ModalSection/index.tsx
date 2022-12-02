@@ -1,9 +1,9 @@
 import { Form, Input } from 'antd'
 import React, { useState } from 'react'
-import { Button, Gap, Modal } from '../../atoms'
-import { SectionWrapper } from '../../moleculs'
+import { Button, Gap, Modal } from '../../../atoms'
+import { SectionWrapper } from '../../../moleculs'
 
-const SectionModal = () => {
+const ModalSection = () => {
   const [open, setOpen] = useState(false)
   return (
     <SectionWrapper title='Modal'>
@@ -27,4 +27,4 @@ const SectionModal = () => {
   )
 }
 
-export default SectionModal
+export default ModalSection

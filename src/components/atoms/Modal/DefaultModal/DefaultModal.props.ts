@@ -1,6 +1,6 @@
 import React from "react";
 
-export type Props = {
+type DefaultModalProps = {
   visible: boolean;
   onToggle: () => void;
   title: string;
@@ -8,3 +8,5 @@ export type Props = {
   width?: string | number;
   centered?: boolean;
 };
+
+export default DefaultModalProps
