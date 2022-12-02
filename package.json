@@ -10,7 +10,8 @@
     "format": "prettier --write .",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "test": "jest --watch"
+    "test": "jest --watch",
+    "cypress": "cypress open"
   },
   "dependencies": {
     "antd": "^4.20.2",
@@ -35,6 +36,7 @@
     "@types/react-dom": "18.0.3",
     "autoprefixer": "^10.4.7",
     "babel-loader": "^8.3.0",
+    "cypress": "^11.2.0",
     "eslint": "8.15.0",
     "eslint-config-next": "12.1.6",
     "eslint-plugin-storybook": "^0.6.7",
