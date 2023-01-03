@@ -9,12 +9,9 @@ const AuthLayout: FC<any> = ({ children }) => {
 
   return (
     <>
-      <Layout className="bg-transparent">
+      <Layout className="bg-transparent min-h-screen">
         <LandingNavbar withLinks={false} />
-        <Content
-          className="container mx-auto site-layout"
-          style={{ padding: '0 50px', minHeight: '90vh' }}
-        >
+        <Content className="container mx-auto site-layout">
           <div className="flex justify-center items-center">{children}</div>
         </Content>
         <CopyrightFooter />

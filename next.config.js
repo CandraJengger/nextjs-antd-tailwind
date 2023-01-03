@@ -8,7 +8,9 @@ const nextConfig = {
   },
   serverRuntimeConfig: {},
   publicRuntimeConfig: {
-    wicara_url: process.env.NEXT_PUBLIC_WICARA_URL
+    wicara_url: process.env.NEXT_PUBLIC_WICARA_URL,
+    term_url: process.env.NEXT_PUBLIC_TERM_URL,
+    privacy_polici_url: process.env.NEXT_PUBLIC_PRIVACY_POLICI_URL
   }
 };
 

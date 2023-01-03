@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import { AuthLayout } from 'src/layouts';
-import { Title } from '../components';
+import { AuthWrapper, RegisterForm, Title } from '../components';
 
 const Register = () => {
   return (
@@ -9,9 +9,12 @@ const Register = () => {
         <title>Registrasi | Widya Wicara</title>
       </Head>
 
-      <main className="p-4 md:p-11">
-        <Title type="title-content" text="Registrasi" />
-      </main>
+      <AuthWrapper
+        title="Create an account"
+        subtitle="Silakkan daftar untuk menikmati layanan dari Widya Wicara."
+      >
+        <RegisterForm />
+      </AuthWrapper>
     </>
   );
 };

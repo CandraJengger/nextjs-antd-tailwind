@@ -17,6 +17,7 @@ const Template: NextPage = () => {
 
       <main className="p-4 md:p-11">
         <Title type="title-content" text="NextJS-Antd-Tailwindcss" />
+        <Title type="title-subsection" text="NextJS-Antd-Tailwindcss" />
 
         <ButtonSection />
 
