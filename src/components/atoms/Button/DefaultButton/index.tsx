@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button as AButton } from 'antd';
 import Props from './DefaultButton.props';
-import styles from './Default.module.scss'
+import styles from './Default.module.scss';
 
 const Button: React.FC<Props> = ({
   type = 'default',

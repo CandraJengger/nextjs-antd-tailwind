@@ -1,33 +1,21 @@
-import type { NextPage } from 'next';
 import Head from 'next/head';
-import {
-  ButtonSection,
-  Title,
-  InputSection,
-  SwitchSection,
-  ModalSection
-} from '../components';
+import { AuthLayout } from 'src/layouts';
+import { Title } from '../components';
 
-const Home: NextPage = () => {
+const Landing = () => {
   return (
     <>
       <Head>
-        <title>Antd with Tailwindcss</title>
+        <title>Affiliate | Widya Wicara</title>
       </Head>
 
       <main className="p-4 md:p-11">
         <Title type="title-content" text="NextJS-Antd-Tailwindcss" />
-
-        <ButtonSection />
-
-        <InputSection />
-
-        <SwitchSection />
-
-        <ModalSection />
       </main>
     </>
   );
 };
 
-export default Home;
+Landing.layout = AuthLayout;
+
+export default Landing;

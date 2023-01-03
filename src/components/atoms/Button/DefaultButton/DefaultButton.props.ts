@@ -19,4 +19,4 @@ type DefaultButtonProps = {
   size?: SizeType;
 };
 
-export default DefaultButtonProps
+export default DefaultButtonProps;

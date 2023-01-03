@@ -3,4 +3,4 @@ type SectionWrapperProps = {
   children?: React.ReactNode | undefined;
 };
 
-export default SectionWrapperProps
+export default SectionWrapperProps;

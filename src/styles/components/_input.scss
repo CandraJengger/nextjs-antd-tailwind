@@ -1,12 +1,12 @@
 .ant-input-affix-wrapper {
-  @apply border border-grey3 p-3;
+  @apply border border-grey3 px-3 py-[10px] rounded;
 
   &:not(.ant-input-affix-wrapper-disabled):hover {
     @apply border-primary;
   }
 
   .ant-input {
-    @apply text-base;
+    @apply text-sm;
   }
 
 }
@@ -16,7 +16,7 @@
 }
 
 .ant-input {
-  @apply border border-grey3 p-3 text-base;
+  @apply border border-grey3 px-3 py-[10px] rounded text-sm;
 
   &:hover {
     @apply border-primary;

@@ -3,4 +3,4 @@ type TitleProps = {
   text: string;
 };
 
-export default TitleProps
+export default TitleProps;

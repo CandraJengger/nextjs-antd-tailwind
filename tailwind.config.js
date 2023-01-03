@@ -8,25 +8,26 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        montserrat: ['Montserrat', 'sans-serif']
+        'plus-jakarta': ['Plus Jakarta Sans', 'sans-serif']
       }
     },
     colors: {
-      primary: '#441151',
-      secondary: '#EE85B5',
+      primary: '#1084EC',
+      secondary: '#f7fafc',
       violet: '#883677',
       congo: '##FF958C',
-      success: '#5FC790',
-      warning: '#FFA600',
-      danger: '#FF5630',
-      dark: '#2E3A44',
+      success: '#2dce89',
+      warning: '#fb6340',
+      danger: '#f5365c',
+      dark: '#212529',
       info: '#1CA7EC',
       black: '#2E3A44',
       grey1: '#A0AABF',
       grey2: '#C0C6D4',
       grey3: '#E3E8F1',
-      light: '#F9FBFC',
-      white: '#FFF'
+      light: '​#adb5bd',
+      white: '#FFF',
+      transparent: 'transparent'
     }
   },
   plugins: []

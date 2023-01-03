@@ -1,6 +1,7 @@
 assets project
-  - image
-    - illustrations
-    - avatars
-  - video
-  - audio
+
+- image
+  - illustrations
+  - avatars
+- video
+- audio

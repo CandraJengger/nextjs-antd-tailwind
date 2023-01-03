@@ -11,7 +11,7 @@ const SwitchSection = () => {
       {/* with form */}
       <Form>
         <Form.Item label="Label">
-          <Switch />
+          <Switch size="small" />
         </Form.Item>
       </Form>
     </SectionWrapper>

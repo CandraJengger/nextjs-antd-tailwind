@@ -6,7 +6,7 @@ const ButtonSection = () => {
   return (
     <SectionWrapper title="Button">
       <div>
-        <Button type="default" className="mx-4" text="Default" />
+        <Button type="default" className="mx-4" text="Default" size="large" />
         <Button type="primary" className="mx-4" text="Primary" />
         <Button type="secondary" className="mx-4" text="Secondary" />
         <Button type="danger" className="mx-4" text="Danger" />

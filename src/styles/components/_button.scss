@@ -1,5 +1,5 @@
 .ant-btn {
-  @apply font-semibold rounded-md; 
+  @apply font-semibold rounded shadow-md; 
 
   &-primary {
     @apply bg-primary hover:bg-primary focus:bg-primary opacity-100 hover:opacity-80 border border-primary hover:border-primary focus:border-primary;

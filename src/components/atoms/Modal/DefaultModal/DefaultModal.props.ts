@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 type DefaultModalProps = {
   visible: boolean;
@@ -9,4 +9,4 @@ type DefaultModalProps = {
   centered?: boolean;
 };
 
-export default DefaultModalProps
+export default DefaultModalProps;
